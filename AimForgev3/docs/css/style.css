@@ -1,0 +1,76 @@
+/* Reset & base */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; color: #333; line-height: 1.6; }
+h1, h2 { margin-bottom: 0.5em; }
+a { color: #007BFF; text-decoration: none; }
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4em 1em;
+  background: #f5f5f5;
+}
+.logo { width: 120px; margin-bottom: 1em; }
+.hero h1 { font-size: 2.5em; margin-bottom: 0.3em; }
+.hero p  { font-size: 1.2em; margin-bottom: 1em; }
+.btn {
+  display: inline-block;
+  padding: 0.8em 1.6em;
+  background: #007BFF;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* Features */
+.features {
+  padding: 2em 1em;
+  background: #fff;
+}
+.features ul {
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.features li {
+  margin-bottom: 0.8em;
+  font-size: 1.1em;
+}
+
+/* How It Works */
+.how-it-works {
+  padding: 2em 1em;
+  background: #f9f9f9;
+}
+.how-it-works ol {
+  max-width: 600px;
+  margin: 0 auto;
+  counter-reset: step;
+}
+.how-it-works li {
+  margin-bottom: 1em;
+  counter-increment: step;
+  position: relative;
+  padding-left: 2em;
+}
+.how-it-works li:before {
+  content: counter(step);
+  position: absolute;
+  left: 0; top: 0;
+  background: #007BFF;
+  color: #fff;
+  width: 1.5em; height: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5em 1em;
+  background: #222;
+  color: #aaa;
+  font-size: 0.9em;
+}
+footer nav a { color: #aaa; }
+footer nav a:hover { color: #fff; }
