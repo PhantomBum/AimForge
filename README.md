@@ -2,7 +2,7 @@
 ai app that uhm helps aim in fps games 👍
 
 uh not released yet but soon 👍
-
+also it doesnt fully work rn even tho i published release 🙂
 
 AimForge is a Windows application that brings machine learning to your mouse. With AimForge you can:
 
