@@ -13,7 +13,7 @@ AimForge is a Windows application that brings machine learning to your mouse. Wi
 - **Manage** session profiles, export/import settings as JSON, and download community models  
 - **Configure** hotkeys, themes, smoothing, logging levels and automatic updates  
 
-AimForge is delivered as a single executable—no Python installation required. Simply download the latest release from the Releases page, launch, and follow the on-screen setup wizard to get started.
+You ned python latest version i think
 
 ---
 
