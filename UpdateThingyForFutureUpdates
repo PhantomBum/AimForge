@@ -1,0 +1,25 @@
+FUTURE UPDATES YAYAY
+
+Controller & Gamepad Support
+Let users plug in Xbox/PlayStation-style controllers (or custom USB sticks) and apply the same smoothing and sensitivity adjustments to thumb-stick input.
+
+Cross-Platform Compatibility
+Extend beyond Windows: native macOS (Quartz) and Linux (X11/Wayland) builds so players on any OS can record, train and assist with the same toolset.
+
+Modular Plugin System
+Provide a “Plugins” folder and a simple API so the community can drop in custom scripts—everything from head-shot counters to recoil-compensation tweaks—without touching core code.
+
+Full UI Customization & Themes
+Offer a theming engine (light, dark, high-contrast) plus drag-and-dock panels, resizable fonts and custom color schemes so each user can tailor the interface to their taste and workflow.
+
+Advanced Macro Recorder
+Built-in macro capture for common in-game actions (e.g. rapid-fire scripts, ability combos), with a timeline editor that lets you tweak delays and loop counts.
+
+Global Hotkey Manager
+A unified settings page showing every keyboard and mouse binding, with conflict detection and the ability to export/import your entire hotkey profile.
+
+Performance Benchmarking & Diagnostics
+Add a “Diagnostics” tab that runs automated latency and frame-rate tests, graphs real-time hook overhead, and logs any stutters for easy troubleshooting.
+
+Localization & Accessibility
+Translate the UI into multiple languages (JSON-driven strings) and include features like screen-reader labels, keyboard-only navigation, and adjustable UI scaling for low-vision users.
